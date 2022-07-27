@@ -1,0 +1,67 @@
+/* Page styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F3D9;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Navbar styling */
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: ghostwhite;
+    padding: 40px;
+}
+
+.navli {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 500px;
+    flex-shrink: 4;
+}
+
+nav p {
+    text-transform: uppercase;
+    flex-shrink: 1;
+    padding-right: 40px;
+}
+
+/* Maine styles */
+.head {
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    overflow: hidden;
+
+    background-color: #C16E70;
+    border-radius: 5px;
+    flex-basis: 280px;
+    margin: 0 20px 20px 20px;
+
+    height: 350px;
+    padding: 15px;
+}
